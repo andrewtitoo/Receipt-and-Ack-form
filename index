@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt and Acknowledgement of Notice of Privacy Practices</title>
+    <style>
+        .signature {
+            font-family: 'Brush Script MT', cursive;
+        }
+    </style>
+</head>
+<body>
+    <h1>Receipt and Acknowledgement of Notice of Privacy Practices</h1>
+    <p>Please read our Notice of Privacy Practices before you read this form. The Notice of Privacy Practices explains our practices related to safeguarding the privacy of your health information, how we use or disclose it, and how you can see it. If you do not agree to our privacy practices, many of which are required by law, we cannot treat you.</p>
+    <p>I hereby acknowledge that I have received and have been given an opportunity to read a copy of the Notice of Privacy Practices.</p>
+    <p>I understand that if I have any questions regarding this notice or my privacy rights, I can contact my therapist.</p>
+    <form>
+        <label for="privacy-options">Please select an option:</label><br>
+        <select id="privacy-options" name="privacy-options">
+            <option value="refuse">I refuse to accept the terms. I understand you cannot provide services as a result.</option>
+            <option value="agree">I agree to accept the terms. I consent to services being provided.</option>
+        </select><br><br>
+        
+        <p>After you have signed this form, you have the right to revoke it at any time by writing a letter telling us you no longer accept the terms, and we will comply with your wishes about using or sharing your information from that time on unless we are required to do so by law or to the extent that we may already have used or shared some of your information.</p>
+        
+        <label for="patient-signature">Signature of patient:</label><br>
+        <input type="text" id="patient-signature" name="patient-signature" class="signature"><br><br>
+        
+        <label for="patient-name">Printed Name:</label><br>
+        <input type="text" id="patient-name" name="patient-name"><br><br>
+        
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+        
+        <label for="representative-signature">Signature of Personal Representative (If other than Patient):</label><br>
+        <input type="text" id="representative-signature" name="representative-signature" class="signature"><br><br>
+        
+        <label for="representative-name">Printed name and relationship to patient:</label><br>
+        <input type="text" id="representative-name" name="representative-name"><br><br>
+        
+        <label for="representative-date">Date:</label><br>
+        <input type="date" id="representative-date" name="representative-date"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
